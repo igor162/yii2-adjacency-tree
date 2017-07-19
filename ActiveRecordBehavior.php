@@ -9,6 +9,7 @@ use yii\helpers\Url;
 /**
  * Tree behavior for ActiveRecord
  * @package igor162\AdjacencyTree
+ *
  * @property \yii\db\ActiveRecord $owner
  * @property string $idAttribute
  * @property string $parentIdAttribute
