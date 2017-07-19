@@ -1,0 +1,23 @@
+{
+    "name": "igor162/yii2-adjacency-tree",
+    "description": "Adjacency tree helpers and behaviors for yii2 ActiveRecord models",
+    "type": "yii2-extension",
+    "keywords": ["yii2","adjacency tree","tree","activerecord"],
+    "homepage": "https://github.com/igor162/yii2-adjacency-tree",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Fandyuhin",
+            "email": "igor162@ya.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "igor162/yii2-tag-dependency-helper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "igor162\\AdjacencyTree\\": ""
+        }
+    }
+}
